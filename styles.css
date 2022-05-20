@@ -1,0 +1,12 @@
+*{
+    margin: 10em;
+}
+
+img.mimi{
+    size: 350px;
+    float: left;
+}
+
+.image_float{
+    float: left;
+}
