@@ -5,92 +5,150 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta
-    description="Mireille Dib's Online CV provides an online website to display her recent experiences, skillset, accomplishments and more.">
-  <link src="styles.css"> <!-- Check if works-->
+  <meta description="Mireille Dib's Online CV provides an online website to display her
+   recent experiences, skillset, accomplishments and more.">
+
   <title>Mireille Dib</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="icon" href="images/favicon.ico">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Corben:wght@400;700&family=Montserrat:wght@300&family=Poppins:wght@300&display=swap"
+    rel="stylesheet">
 </head>
 
 <body>
-  <div classname="App-body">
-    <!--Intro Section-->
-    <div class="image_float">
-      <img class="mimi" src="./images/mimi_small.jpg" alt="Image of Mireille Dib's headshot"> <!-- Change size-->
-      <h1>Mireille Dib</h1>
+  <!-------Top Intro------->
+  <div class="top-cont-gradient">
+    <div id="top">
+      <div class="navbar">
+        <img class="mimi-img" src="images/headscarf_emoji_round.png" alt="mireille dib's emoji">
+        <div class="nav-links">
+          <a href="#skills">Skills</a>
+          <a href="#works">Works</a>
+          <a href="#contact-me">Contact</a>
+        </div>
+      </div>
+
+      <h1 class="title-h1">mireille dib</h1>
+      <h2 class="subtitle-h2">Junior Front-end Developer based in Ottawa, Ontario, Canada.</h2>
+
+      <img class="sun-img" src="images/sun-64.png" alt="sun img">
+      <img class="cloud-img" src="images/cloud-computing-128-flipped.png" alt="cloud img">
+      <img class="island-img" src="images/island-cropped.png" alt="island img">
+    </div>
+  </div>
+  <!-------Hello------->
+  <div class="hello-cont-gradient">
+    <div id="hello">
+
+      <!--<img src="" alt="">-->
+
+      <h2>Hello.</h2>
+      <p>I am a recent Computer Programmer Graduate of Algonquin College with a background in aviation security. I
+        discovered a zeal for learning and constantly growing in the field of development.</p>
+
+
+
+    </div>
+    <hr>
+  </div>
+  <!-------Skills------->
+  <div class="skills-cont-gradient">
+    <div id="skills">
+      <h2 class="skills-h2">Skills</h2>
+      <div class="skill-row">
+        <div class="skill1-row-flex">
+          <img class="skill-row-img1" src="images/jellyfish-pink-128.png" alt="jellyfish-img">
+          <!--🤓👩‍💻💅🕶📚🌱✔-->
+
+          <div class="skill1">
+            <h3>Full-stack App Development</h3>
+            <p>Comfortable in full-stack development having gained comprehension in:</p>
+          </div>
+        </div>
+      </div>
+      <table>
+        <tr>
+          <td>HTML</td>
+          <td>Java</td>
+          <td>MongoDb</td>
+          <td>ReactJs</td>
+
+        </tr>
+        <tr>
+          <td>CSS</td>
+          <td>JavaScript</td>
+          <td>Mongoose</td>
+          <td>NodeJs</td>
+        </tr>
+        <tr>
+          <td>Bootstrap</td>
+          <td>SQL</td>
+          <td>ExpressJs</td>
+          <td>Bash</td>
+      </table>
+      <div class="skill-row">
+        <!--<img class="" src="" alt="">-->
+
+        <h3>Monolith & Microservices Development</h3>
+        <p>Lorem ipsum dolor sit amet, mauris sed consectetuer. Etiam et eu, bibendum interdum, lacus quis mauris.
+          Curabitur wisi, quisque vel eu, rutrum nam.</p>
+
+      </div>
+    </div>
+  </div>
+  <hr>
+  <!-------Works------->
+  <div class="works-cont">
+    <div id="works">
+
+      <h2 class="works-h2">Works</h2>
+      <div class="works-row">
+        <img class="" src="" alt="">
+
+        <h3>Lorem & Ipsum</h3>
+        <p>Lorem ipsum dolor sit amet, quis in duis, iaculis id felis. Consectetuer vestibulum, nunc urna lectus, erat
+          ligula. Hendrerit nam, lectus ante, ut lorem eros.</p>
+
+      </div>
+      <div class="works-row">
+        <img class="" src="" alt="">
+
+        <h3>Lorem Ipsum Dolor</h3>
+        <p>Lorem ipsum dolor sit amet, mauris sed consectetuer. Etiam et eu, bibendum interdum, lacus quis mauris.
+          Curabitur wisi, quisque vel eu, rutrum nam.</p>
+
+      </div>
+    </div>
+    <hr>
+    <!-------Contact Me------->
+    <div id="contact-me">
+
+      <h2>Get In Touch</h2>
+      <h3>Lorem ipsum dolor sit amet, non elit.</h3>
       <em>
         <dl>
-          <dt>Junior Front-end Developer (React)</dt>
           <dt>Ottawa, ON, Canada</dt>
+          <dt>mimidib7@outlook.com</dt>
         </dl>
       </em>
+      <p>Lorem ipsum dolor sit amet, in quis, aenean amet. Phasellus sodales, tellus donec dui, ornare erat.</p>
+      <a class="btn" href="mailto:name@email.com">CONTACT ME</a>
     </div>
-    <!--Education-->
-    <hr>
-    <h3>Education</h3>
-    <ul>
-      <li>
-        Udemy
-        <ul>
-          <li>
-            Completed <em>The Complete 2022 Web Development Bootcamp</em> by Dr. Angela Yu, 2022.
-          </li>
-        </ul>
-      </li>
-      <li>
-        Algonquin College
-        <ul>
-          <li>
-            Achieved a Diploma in Computer Programming Online accomplishing Dean's Honours List for all semseters, 2022.
-          </li>
-        </ul>
-      </li>
-      <li>
-        Students on Ice
-        <ul>
-          <li>
-            Attended the 2-week Artic Expedition with a global team of 200 students, scientists, elders,
-            and visionary leaders to attain knowledge and opportunities in the polar regions via scholarship, July 2016
-          </li>
-        </ul>
-      </li>
-      <li>
-        Obtained a Highschool Diploma at Canterbury Highschool, 2015.
-      </li>
-    </ul>
-    <!--Experience Section-->
-    <hr>
-    <h3>Experience</h3>
-
-    <!--Projects-->
-    <hr>
-    <h3>Projects</h3>
-
-    <p>
-      <em>GitHub:
-        <a href="www.GitHub.com/mimidib">GitHub.com/mimidib</a></em>
-    </p>
-
-    <!--Hobbies-->
-    <hr>
-    <h3>Hobbies</h3>
-    <p>
-      In my spare time I enjoy going out for a good meal, picnics with family,
-      finding wild animals, attempting to play League of Legends on my PC, and much more.
-    </p>
-    <!--Contact-->
-    <hr>
-    <h3>Contact</h3>
-    <em>
-      <dl>
-        <dt>Ottawa, ON, Canada</dt>
-        <dt>mimidib7@outlook.com</dt>
-      </dl>
-    </em>
-    <!--References-->
-    <hr>
-    <h2>References</h2><br>
-    <p>References are available upon request</p>
   </div>
+
+  <div class="bottom-container">
+    <div class="attribute"> Icons made by <a href="https://www.freepik.com" title="Freepik"> Freepik </a> from <a
+        href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com'</a>
+    </div>
+    <a class="footer-link" href="https://www.linkedin.com/mimidib">LinkedIn</a>
+    <a class="footer-link" href="https://github.com/mimidib">GitHub</a>
+    <a class="footer-link" href="https://www.appbrewery.co/">Website</a>
+    <a>© 2022 Mireille Dib.</a>
+  </div>
+
 </body>
 
 </html>

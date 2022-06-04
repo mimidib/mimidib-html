@@ -1,0 +1,293 @@
+/*colours based on icons
+dark greens: #5ca375 Aqua Forest #1EA86C Mountain Meadow 
+middle green: #77d08c De York
+light green: #94d687 Feijoa
+water blue: #4AA4DD Havelock Blue *new*
+	#3498DB #3199dc Curious Blue old
+grey-purple: #8d8290 Mamba
+light sand: #FFEED2
+dark sand: #F4DAA7 
+
+bubble dark blue: #0A85D9
+bubble middle blue: #33BEF0
+bubble light (highlight) blue: #33BEF0
+
+potential backgrounds
+
+#b3e8e5 old ≈ Powder Blue
+#D5E8F3 Link Water
+#D5f3f0 Iceberg
+#E6f7f5 Aqua Spring
+
+gradient:
+
+#e2ebd7
+8
+×
+#e6f7f5
+13
+×
+#e6f7f5
+43
+×
+#4aa4dd
+44
+×
+#4aa4dd
+54
+×
+#e6f7f5
+63
+×
+#e6f7f5
+70
+×
+#e2ebd7
+74
+×
+#e2ebd7
+81
+×
+#e6f7f5
+89
+×
+#e6f7f5
+98
+×
+#ffffff
+100
+/* OLD FULL PAGE
+	background: rgb(226, 235, 215);
+	background: linear-gradient(
+		180deg,
+		rgba(226, 235, 215, 1) 8%,
+		rgba(230, 247, 245, 1) 13%,
+		rgba(230, 247, 245, 1) 43%,
+		rgba(74, 164, 221, 1) 44%,
+		rgba(74, 164, 221, 1) 54%,
+		rgba(230, 247, 245, 1) 63%,
+		rgba(230, 247, 245, 1) 70%,
+		rgba(226, 235, 215, 1) 74%,
+		rgba(226, 235, 215, 1) 81%,
+		rgba(230, 247, 245, 1) 89%,
+		rgba(230, 247, 245, 1) 98%,
+		rgba(255, 255, 255, 1) 100%
+	);
+*/
+/*
+	background: rgb(226, 235, 215);
+	background: linear-gradient(
+		180deg,
+		rgba(226, 235, 215, 1) 7%,
+		rgba(230, 247, 245, 1) 17%,
+		rgba(230, 247, 245, 1) 56%,
+		rgba(74, 164, 221, 1) 57%
+	);
+	*/
+
+/*********************ELEMENT STYLES************************/
+a {
+	font-family: "Montserrat", sans-serif;
+}
+body {
+	margin: 0;
+	text-align: center;
+	height: 100%;
+}
+
+h1 {
+	color: #5ca476; /*#8da474; #99b37f #8d8290; *#8d8290 #ceab93*/
+	text-shadow: 1px 3px 2px #383639;
+	margin-block-start: 0;
+	font-family: "Corben", cursive; /*"Nanum Pen Script", cursive;*/ /*"Lexend Zetta", sans-serif;*/
+	font-size: 3.125rem; /* 4.6875rem=75px rem root percentage, em percentage */
+	max-width: 100%;
+}
+h2 {
+	color: #5ca476; /*#8da474;#8d8290;*/
+	font-size: 1.5rem;
+	font-family: "Poppins", sans-serif;
+	margin-block-start: 0;
+	margin-block-end: 0;
+	margin: 0 auto 3rem;
+	width: 50%;
+	max-width: 100%;
+	font-weight: normal;
+}
+h3 {
+	color: #73875f;
+	font-family: "Poppins", sans-serif;
+	font-size: 1.1rem;
+}
+hr {
+	margin-block-start: 0;
+	margin-block-end: 0;
+	border-style: none none dotted;
+	border-width: thick;
+	width: 4rem;
+	color: rgba(191, 224, 220, 1);
+}
+p {
+	font-family: "Montserrat", sans-serif;
+}
+table {
+	border: 1px solid black;
+	text-align: center;
+	width: 80%;
+	font-family: "Montserrat", sans-serif;
+}
+/*********************CLASS STYLES************************/
+.bottom-container {
+	font-size: 12px;
+	display: inline-flex;
+	margin-bottom: 1rem;
+}
+.lower-cont-gradient {
+	/*skills section 
+	background: rgb(74, 164, 221);
+	background: linear-gradient(
+		90deg,
+		rgba(74, 164, 221, 1) 4%,
+		rgba(191, 224, 220, 1) 19%,
+		rgba(255, 255, 255, 1) 25%,
+		rgba(255, 255, 255, 1) 75%,
+		rgba(191, 224, 220, 1) 81%,
+		rgba(74, 164, 221, 1) 96% /*#e3eddd 
+	);*/
+}
+.hello-cont-gradient {
+	background: rgb(255, 255, 255);
+	background: linear-gradient(
+		0deg,
+		rgba(255, 255, 255, 1) 0%,
+		rgba(255, 255, 255, 1) 15%,
+		rgba(191, 224, 220, 1) 60%,
+		rgba(74, 164, 221, 1) 100%
+	);
+}
+
+.navbar {
+	position: absolute;
+	top: 1.5rem;
+	left: 0rem;
+	width: 100%;
+	/*background-color: #e6f7f5;*/
+	display: inline-flex;
+	align-items: center;
+}
+.nav-links {
+	/*text-align: end;*/
+	/*display: inline-flex;*/
+	width: 100%; /*sets the width of the div to fill width of parent (navbar=100% width) */
+	text-align: end; /*weighs the text to the right of the page */
+}
+.navbar a {
+	/*only applies styles to any a elements in the navbar-links div, not the div itself*/
+	text-decoration: none;
+	color: #5ca476;
+	font-family: "Poppins", sans-serif;
+	margin: 0 0 0 1.5rem;
+	padding: 0;
+}
+.skill1 {
+	padding-left: 1rem;
+	margin: auto;
+}
+.skill-row {
+	text-align: left;
+	display: flex;
+}
+.skill1-row-flex {
+	text-align: left;
+	display: flex;
+	flex-wrap: nowrap;
+	align-items: flex-start;
+	align-content: flex-start;
+	justify-content: flex-start;
+	flex-direction: row;
+}
+.skills-cont-gradient {
+}
+.subtitle-h2 {
+	font-size: 1.3rem;
+	margin: 0 auto;
+}
+.title-h1 {
+}
+.top-cont-gradient {
+	/*tree section */
+	width: 100%;
+	background: rgb(226, 235, 215);
+	background: linear-gradient(
+		180deg,
+		rgba(226, 235, 215, 1) 12%,
+		rgba(230, 247, 245, 1) 18%,
+		rgba(230, 247, 245, 1) 77%,
+		rgba(74, 164, 221, 1) 80%
+	);
+}
+
+/************** class - img styles***************/
+.cloud-img {
+	z-index: -1;
+	position: absolute; /*should be relative to the top container */
+	max-width: 18%;
+	left: 4%;
+	top: 50%;
+}
+.island-img {
+	margin-top: 7%;
+	width: 28.125rem;
+	display: inline-block;
+	max-width: 80%;
+}
+
+.mimi-img {
+	height: 4.6875rem; /*= to 75px x 75px */
+	width: 4.6875rem;
+
+	/*box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);*/
+}
+.skill-row-img1 {
+	float: left;
+	margin-top: 1rem;
+	max-width: 40%;
+}
+.sun-img {
+	z-index: -1;
+	position: absolute; /*should be relative to the top container */
+	max-width: 12%;
+	right: 4%;
+	top: 17%;
+}
+
+/********************* ID STYLES************************/
+#contact-me {
+	margin: 5rem auto;
+	width: 50%;
+}
+#hello {
+	padding-top: 10rem;
+	margin: 0 auto 5rem;
+	width: 50%;
+}
+#skills {
+	padding-top: 0.6rem;
+	margin: 5rem auto;
+	width: 50%;
+}
+#skills table {
+	margin: 1.5rem auto;
+}
+#top {
+	/*background-color: #e6f7f5;*/
+	z-index: 1; /*to allow h1 to be on the same floor as absolute contents, but h1 stacking order infront of sun */
+	margin: 0 2rem;
+	position: relative;
+	padding-top: 10rem; /*300px = 18.75rem - height of nav 4.6875 = 14.0625 | 5.125rem= to 50px */
+}
+#works {
+	margin: 5rem auto;
+	width: 50%;
+}
+/************** ID - img styles***************/
