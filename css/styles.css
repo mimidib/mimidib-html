@@ -124,11 +124,12 @@ hr {
 	margin-block-end: 0;
 	border-style: none none dotted;
 	border-width: thick;
-	width: 4rem;
+	width: 3rem;
 	color: rgba(191, 224, 220, 1);
 }
 p {
 	font-family: "Montserrat", sans-serif;
+	line-height: 2;
 }
 table {
 	border: 1px solid black;
@@ -190,10 +191,10 @@ table {
 	padding: 0;
 }
 .skill1 {
-	padding-left: 1rem;
-	margin: auto;
+	width: 39.5rem; /*632px*/
 }
 .skill-row {
+	/*applies to both skill sections */
 	text-align: left;
 	display: flex;
 }
@@ -250,8 +251,9 @@ table {
 }
 .skill-row-img1 {
 	float: left;
-	margin-top: 1rem;
-	max-width: 40%;
+	margin-top: 0.5rem;
+	max-width: 20%;
+	margin-right: 0.5rem;
 }
 .sun-img {
 	z-index: -1;
